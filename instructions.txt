@@ -1,0 +1,3 @@
+Things to do:
+Update name and description
+Create a .env and include the postgres options
