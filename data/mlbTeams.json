@@ -1,0 +1,189 @@
+{
+    "teams": [
+        {
+            "name": "Arizona Diamondbacks",
+            "abbreviations": [
+                "ARI"
+            ]
+        },
+        {
+            "name": "Atlanta Braves",
+            "abbreviations": [
+                "ATL"
+            ]
+        },
+        {
+            "name": "Baltimore Orioles",
+            "abbreviations": [
+                "BAL"
+            ]
+        },
+        {
+            "name": "Boston Red Sox",
+            "abbreviations": [
+                "BOS"
+            ]
+        },
+        {
+            "name": "Chicago Cubs",
+            "abbreviations": [
+                "CHC"
+            ]
+        },
+        {
+            "name": "Chicago White Sox",
+            "abbreviations": [
+                "CHW"
+            ]
+        },
+        {
+            "name": "Cincinnati Reds",
+            "abbreviations": [
+                "CIN"
+            ]
+        },
+        {
+            "name": "Cleveland Guardians",
+            "abbreviations": [
+                "CLE"
+            ]
+        },
+        {
+            "name": "Colorado Rockies",
+            "abbreviations": [
+                "COL"
+            ]
+        },
+        {
+            "name": "Detroit Tigers",
+            "abbreviations": [
+                "DET"
+            ]
+        },
+        {
+            "name": "Houston Astros",
+            "abbreviations": [
+                "HOU"
+            ]
+        },
+        {
+            "name": "Kansas City Royals",
+            "abbreviations": [
+                "KCR",
+                "KC"
+            ]
+        },
+        {
+            "name": "Los Angeles Angels",
+            "abbreviations": [
+                "LAA"
+            ]
+        },
+        {
+            "name": "Los Angeles Dodgers",
+            "abbreviations": [
+                "LAD"
+            ]
+        },
+        {
+            "name": "Miami Marlins",
+            "abbreviations": [
+                "MIA"
+            ]
+        },
+        {
+            "name": "Milwaukee Brewers",
+            "abbreviations": [
+                "MIL"
+            ]
+        },
+        {
+            "name": "Minnesota Twins",
+            "abbreviations": [
+                "MIN"
+            ]
+        },
+        {
+            "name": "New York Yankees",
+            "abbreviations": [
+                "NYY"
+            ]
+        },
+        {
+            "name": "New York Mets",
+            "abbreviations": [
+                "NYM"
+            ]
+        },
+        {
+            "name": "Oakland Athletics",
+            "abbreviations": [
+                "OAK"
+            ]
+        },
+        {
+            "name": "Philadelphia Phillies",
+            "abbreviations": [
+                "PHI"
+            ]
+        },
+        {
+            "name": "Pittsburgh Pirates",
+            "abbreviations": [
+                "PIT"
+            ]
+        },
+        {
+            "name": "San Diego Padres",
+            "abbreviations": [
+                "SDP",
+                "SD"
+            ]
+        },
+        {
+            "name": "San Francisco Giants",
+            "abbreviations": [
+                "SFG",
+                "SF"
+            ]
+        },
+        {
+            "name": "Seattle Mariners",
+            "abbreviations": [
+                "SEA"
+            ]
+        },
+        {
+            "name": "St. Louis Cardinals",
+            "abbreviations": [
+                "STL"
+            ]
+        },
+        {
+            "name": "Tampa Bay Rays",
+            "abbreviations": [
+                "TBR",
+                "TB"
+            ]
+        },
+        {
+            "name": "Texas Rangers",
+            "abbreviations": [
+                "TEX"
+            ]
+        },
+        {
+            "name": "Toronto Blue Jays",
+            "abbreviations": [
+                "TOR"
+            ]
+        },
+        {
+            "name": "Washington Nationals",
+            "abbreviations": [
+                "WSN",
+                "WSH"
+            ]
+        }
+    ]
+}
