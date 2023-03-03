@@ -58,6 +58,22 @@ const main = async () => {
 
     console.log("2022 projections saved");
 
+    const atcProjectionsBattersParser = new CSVParser(new FangraphsOffProjParseInfo("/app/data/atcProjectionsBatters.csv", "ATC"));
+    await atcProjectionsBattersParser.run();
+
+    const atcProjectionsPitchersParser = new CSVParser(new FangraphsPitProjParseInfo("/app/data/atcProjectionsPitchers.csv", "ATC"));
+    await atcProjectionsPitchersParser.run();
+
+    console.log("ATC projections saved");
+
+    const batXProjectionsBattersParser = new CSVParser(new FangraphsOffProjParseInfo("/app/data/batXProjectionsBatters.csv", "BATX"));
+    await batXProjectionsBattersParser.run();
+
+    const batXProjectionsPitchersParser = new CSVParser(new FangraphsPitProjParseInfo("/app/data/batXProjectionsPitchers.csv", "BATX"));
+    await batXProjectionsPitchersParser.run();
+
+    console.log("BATX projections saved");
+
     console.log("Complete");
 
     await new Promise((resolve) => setTimeout(resolve, 600000));
