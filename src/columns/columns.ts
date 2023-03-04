@@ -2,9 +2,9 @@ import { Value, ColumnRequest, Request, Response, SortOrder } from "@jonschwarz2
 import { runFilter } from "./filter";
 import { sort } from "./sort";
 
-export interface ColumnController<Entity, Parameters, ColumnType> {
-    name: ColumnType;
-    getValue: (entity: Entity, parameters: Parameters) => Value;
+export interface ColumnController<Entity> {
+    name: string;
+    getValue: <T>(entity: Entity, parameters: T) => Value;
 }
 
 export type GetValue<Entity, ColumnRequestType> = (entity: Entity, columnRequest: ColumnRequestType) => Value;
