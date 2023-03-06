@@ -37,6 +37,8 @@ const main = async () => {
     const fangraphsBattersIdsParser = new CSVParser(new FangraphsIdsParseInfo("/app/data/fangraphsBattersIds.csv"));
     await fangraphsBattersIdsParser.run();
 
+    return;
+
     const fangraphsPitchersIdsParser = new CSVParser(new FangraphsIdsParseInfo("/app/data/fangraphsPitchersIds.csv"));
     await fangraphsPitchersIdsParser.run();
 

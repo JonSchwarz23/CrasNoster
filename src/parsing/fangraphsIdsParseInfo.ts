@@ -53,6 +53,9 @@ export class FangraphsIdsParseInfo implements CsvParseInfo<FangraphsBattersIdsPa
             }
 
             if (players.length === 0) {
+                console.log("Could not find match for ", payload);
+                continue;
+
                 const playersOnTeam = allPlayers.filter((player) => (!player.team && !payload.team) || player.team?.abbreviations.includes(payload.team));
 
                 let closePlayers: Player[] = [];

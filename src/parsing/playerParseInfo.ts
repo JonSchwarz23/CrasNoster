@@ -45,6 +45,15 @@ const playerParseInfo: CsvParseInfo<PlayerCSV> = {
         age: toNumber,
         salary: toNumber,
         contract: (value) => (value === "1st" ? 2025 : toNumber(value)),
+        name: (value) => {
+            let result = value.replaceAll("ñ", "n");
+            result = value.replaceAll("ó", "o");
+            result = value.replaceAll("é", "e");
+            result = value.replaceAll("í", "i");
+            result = value.replaceAll("ú", "u");
+            result = value.replaceAll("á", "a");
+            return result;
+        },
     },
     handlePayloads: async (payloads: PlayerCSV[]) => {
         const teams = await client.database.manager.find(Team);
